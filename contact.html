@@ -1,0 +1,112 @@
+<!-- Name: Muhammed Almouna, Email: malmouna0926@conestogac.on.ca -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="normalizesheet" href="normalize.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <header><h1><img src="C:\Users\mohos\OneDrive\Desktop\Web Foundation\Assignment 3\Picctures\logotipo-50-aniversario-bmw-m.jpg"
+        alt="BMW M 50th annervirsary" class="logo"> The Story of M Division
+        <h1>
+    </header>
+
+
+    <nav><a href="main.html">Home</a>
+        <a href="contact.html">Contact Us</a></nav>
+ 
+
+            <main>
+                <h2>Personal Information</h2>
+                <form id="myForm">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div>
+                            <label for="employment">Employment Status:</label>
+                            <select id="employment" name="employment" required>
+                                <option value="" disabled selected>Select Option</option>
+                                <option value="student">Student</option>
+                                <option value="employed-fulltime">Employed Full-time</option>
+                                <option value="employed-parttime">Employed Part-time</option>
+                                <option value="retired">Retired</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>How did you hear about our site?</legend>
+                        <div>
+                            <input type="radio" id="social-media" name="hear-about" value="social-media" required>
+                            <label for="social-media">Social Media</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="friend" name="hear-about" value="friend">
+                            <label for="friend">Friend</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="search-engine" name="hear-about" value="search-engine">
+                            <label for="search-engine">Search Engine</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="other" name="hear-about" value="other">
+                            <label for="other">Other</label>
+                        </div>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Tell Us what you think!</legend>
+                        <div>
+                            <label for="comments">Comments:</label>
+                            <textarea id="comments" name="comments" placeholder="Your comments here"></textarea>
+                        </div>
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Submit</legend>
+                        <div>
+                            <input type="checkbox" id="robot" name="robot" required>
+                            <label for="robot">I am not a robot</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </fieldset>
+                </form>
+            </main>
+        
+            <script>
+                // Add focus attribute to the Name input
+                document.getElementById("name").focus();
+            </script>
+        </body>
+</html>
+
+
+
+
+
+
+
+        <footer><p>&copy;2023  Muhammed Almouna   8660926</p></footer>
+
+
+</body>

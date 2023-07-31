@@ -1,0 +1,94 @@
+body {
+    padding: 12px;
+    margin: 18px;
+    max-width: fit-content;
+    border: 1px solid black;
+    font: 14pt Arial, sans-serif;
+    width: 100%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header{border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(151, 34, 19);
+    font-size: 23pt;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;}
+
+.logo {
+    width: 68px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */;
+}
+        
+        
+    
+
+nav{border: 2px solid;
+        padding: 8px;
+        margin: 8px;
+        text-align: right;
+    text-decoration: none;
+    font-size: larger;}
+
+nav a{border: 1px;
+    padding: 4px;
+    margin: 4px;
+    border: 1px solid rgb(218, 86, 86);}
+
+    nav a:hover {
+        color:white;
+        background-color:blue;}
+
+
+aside {
+float: right;
+width: 30%;
+list-style: none;}
+
+aside h2{text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20pt;}
+
+  
+.tt{
+    float: left;
+    width: 70%;}
+
+.tt h1{text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20pt;}
+
+.bodyimage{margin: 25px 500px 25px 300px;
+    padding: 20px;
+width: 760px;
+height: 400px;
+background-color: blueviolet;}
+.picturecaption{font-size: small;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;}
+
+.video{margin: 25px 500px 25px 300px;
+    padding: 20px;
+    width: 660px ;
+    height: 350px;
+    border: 10px;
+    background-color: blueviolet;}
+
+.videocaption{font-size: small;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;}
+
+
+footer{border: 1px solid;
+padding: 1px;
+margin: 10px 2px;
+text-align: center;
+background-color:rgb(151, 34, 19);
+font-size: small;}
+
